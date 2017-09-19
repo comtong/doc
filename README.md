@@ -5,8 +5,9 @@ android 学习笔记
 ## 1.RecycleView使用心得
 
   RecycleView 基本上能完全代替Listview和GridView，最重要的是RecycleView的可扩展性是另外两个控件无法比拟的
+  
   # 优势
-
+  
   优点1：灵活的adapter，可以设置item的类型，根据不同的类型设置不同布局、不同的逻辑等等，轻松实现类似相册那种带着header日期的模式
 
   优点2：利用setItemAnimator、addItemDecoration可以轻松定制动画和间距（装饰）等等
