@@ -1,6 +1,5 @@
-Com的财富
-=======
-android 学习笔记
+#Com的财富
+##android 学习笔记
 -----------
 ### 1.RecycleView使用心得
 
@@ -22,4 +21,8 @@ android 学习笔记
 > 坑3：在onBindViewHolder中，任何if都要连带着else，否则在随着列表滑动刷新的时候，因为没有else，所以原来的状态不会改变过来
 
 > 坑4：recycleView中每个item的中的控件点击事件，如果点击完牵扯到UI刷新，建议直接调用notifyDataSetChanged()，而不是直接改变该item下的UI，防止         recycleView中数据插入与删除导致的各种不可理解现象
+
+## Markdown 学习笔记
+> 快速入门（http://wowubuntu.com/markdown/basic.html）
+> 完整入门（http://wowubuntu.com/markdown/index.html）
 
