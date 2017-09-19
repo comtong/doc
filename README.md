@@ -1,6 +1,5 @@
 # Com的财富
 ## android 学习笔记
------------
 ### 1.RecycleView使用心得
 
   RecycleView 基本上能完全代替Listview和GridView，最重要的是RecycleView的可扩展性是另外两个控件无法比拟的
@@ -23,6 +22,7 @@
 > 坑4：recycleView中每个item的中的控件点击事件，如果点击完牵扯到UI刷新，建议直接调用notifyDataSetChanged()，而不是直接改变该item下的UI，防止         recycleView中数据插入与删除导致的各种不可理解现象
 
 ## Markdown 学习笔记
-> [快速入门](http://wowubuntu.com/markdown/basic.html)
-> [完整入门](http://wowubuntu.com/markdown/index.html)
+> 1.[快速入门](http://wowubuntu.com/markdown/basic.html)
+
+> 2.[完整入门](http://wowubuntu.com/markdown/index.html)
 
