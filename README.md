@@ -4,7 +4,8 @@ android 学习笔记
 -----------
 ## 1.RecycleView使用心得
 
-  #RecycleView 基本上能完全代替Listview和GridView，最重要的是RecycleView的可扩展性是另外两个控件无法比拟的
+  RecycleView 基本上能完全代替Listview和GridView，最重要的是RecycleView的可扩展性是另外两个控件无法比拟的
+  # 优势
 
   优点1：灵活的adapter，可以设置item的类型，根据不同的类型设置不同布局、不同的逻辑等等，轻松实现类似相册那种带着header日期的模式
 
@@ -12,7 +13,7 @@ android 学习笔记
 
   优点3：setSpanSizeLookup这个是设置item的所占大小，利用item的类型属性，可以定制出有趣的布局，比如title属性占4个位置（每一行恰好的四个），那么就能实   现title占一行
 
-  #踩坑点：
+  # 踩坑点：
 
   坑1：当recycleView被scollView包裹时，则失去了其加载的优势，变成了一下子把recycleview全部加载出来（猜测可能是因为scollView需要计算出高度，所以要全   部加载出来）
 
