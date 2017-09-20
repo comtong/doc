@@ -2,11 +2,13 @@
 
 ## 目录
 1. [android 学习笔记](#android学习笔记)
+
+  1.1 [RecycleView使用心得](#recycleView使用心得)
 2. [Markdown学习笔记](#markdown学习笔记)
 3. [git 学习笔记](#git学习笔记)
 
 ## android学习笔记 
-### 1.RecycleView使用心得
+### RecycleView使用心得
 
   RecycleView 基本上能完全代替Listview和GridView，最重要的是RecycleView的可扩展性是另外两个控件无法比拟的
   
