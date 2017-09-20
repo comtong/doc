@@ -27,11 +27,13 @@
 > 2.[完整入门](http://wowubuntu.com/markdown/index.html)
 
 ## git学习笔记
-> git init 初始化git仓库
-> git add readme.txt  或者git add.
-> git commit -m "first commit"  提交到本地仓库
-> git log 查看提交日志
-> git log --pretty=oneline   精简日志
-> git reset --hard HEAD^  回退到上一个版本   HEAD表示当前版本 HEAD^表示上一个版本，HEAD^^上两个版本，多个则HEAD~100
-  或者git reset --hard 508930d     508930d为commit id
->
+### git命令
+* git init 初始化git仓库
+* git add readme.txt  或者git add.
+* git commit -m "first commit"  提交到本地仓库
+* git log 查看提交日志
+* git log --pretty=oneline   精简日志
+* git reset --hard HEAD^  回退到上一个版本   HEAD表示当前版本 HEAD^表示上一个版本，HEAD^^上两个版本，多个则HEAD~100
+  或者git reset --hard 508930d     508930d为commit id（注意回退完还是需要重新提交代码的）
+* git reflog 查看之前的命令日志，防止重启后还能吃后悔药，如果恢复到未来的版本（已经回退过，所以有未来）
+* git status 查看当前状态
