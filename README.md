@@ -26,3 +26,12 @@
 
 > 2.[完整入门](http://wowubuntu.com/markdown/index.html)
 
+## git学习笔记
+> git init 初始化git仓库
+> git add readme.txt  或者git add.
+> git commit -m "first commit"  提交到本地仓库
+> git log 查看提交日志
+> git log --pretty=oneline   精简日志
+> git reset --hard HEAD^  回退到上一个版本   HEAD表示当前版本 HEAD^表示上一个版本，HEAD^^上两个版本，多个则HEAD~100
+  或者git reset --hard 508930d     508930d为commit id
+>
