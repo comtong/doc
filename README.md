@@ -1,14 +1,14 @@
 # Com的财富
 
 ## 目录
-1. [android 学习笔记](#android学习笔记)
-
-  1.1 [RecycleView使用心得](#recycleView使用心得)
-2. [Markdown学习笔记](#markdown学习笔记)
-3. [git 学习笔记](#git学习笔记)
+* [1. android 学习笔记](#android学习笔记)
+* [1.1 RecycleView使用心得](#recycleview使用心得)
+* [1.2 surfaceview黑屏问题](#surfaceview黑屏问题)
+* [2. Markdown学习笔记](#markdown学习笔记)
+* [3. git 学习笔记](#git学习笔记)
 
 ## android学习笔记 
-### RecycleView使用心得
+### recycleView使用心得
 
   RecycleView 基本上能完全代替Listview和GridView，最重要的是RecycleView的可扩展性是另外两个控件无法比拟的
   
@@ -29,7 +29,7 @@
 
 > 坑4：recycleView中每个item的中的控件点击事件，如果点击完牵扯到UI刷新，建议直接调用notifyDataSetChanged()，而不是直接改变该item下的UI，防止         recycleView中数据插入与删除导致的各种不可理解现象
 
-### 2.surfaceview黑屏问题
+### surfaceview黑屏问题
 解决方法
 surfaceView.setZOrderOnTop(true);// 放置在window最上方显示
 holder.setFormat(PixelFormat.TRANSPARENT);// 透明，否在会盖住原本在上面的
@@ -38,6 +38,8 @@ holder.setFormat(PixelFormat.TRANSPARENT);// 透明，否在会盖住原本在�
 > 1.[快速入门](http://wowubuntu.com/markdown/basic.html)
 
 > 2.[完整入门](http://wowubuntu.com/markdown/index.html)
+
+> 3.设置页内锚点英文字母要小写（至少git上需要这样）
 
 ## git学习笔记
 ### git命令
