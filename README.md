@@ -3,7 +3,7 @@
 ## 目录
 1. [android 学习笔记](#android)
 2. [Markdown 学习笔记](#Markdown学习笔记)
-1. [git 学习笔记](#git我)
+1. [git 学习笔记](#git学习笔记)
 
 ## android 
 ### 1.RecycleView使用心得
@@ -32,7 +32,7 @@
 
 > 2.[完整入门](http://wowubuntu.com/markdown/index.html)
 
-## git我
+## git学习笔记
 ### git命令
 * git init 初始化git仓库
 * git add readme.txt  或者git add.
