@@ -1,7 +1,8 @@
 # Com的财富
 
 ## 目录
-1. [android 学习笔记](## android 学习笔记)
+1. [android 学习笔记](#android)
+
 ## android 学习笔记
 ### 1.RecycleView使用心得
 
@@ -29,7 +30,7 @@
 
 > 2.[完整入门](http://wowubuntu.com/markdown/index.html)
 
-## git学习笔记
+## git
 ### git命令
 * git init 初始化git仓库
 * git add readme.txt  或者git add.
