@@ -1,11 +1,11 @@
 # Com的财富
 
 ## 目录
-* [1. android 学习笔记](#android学习笔记)
-* [1.1 RecycleView使用心得](#recycleview使用心得)
-* [1.2 surfaceview黑屏问题](#surfaceview黑屏问题)
-* [2. Markdown学习笔记](#markdown学习笔记)
-* [3. git 学习笔记](#git学习笔记)
+* [1.android 学习笔记](#android学习笔记)
+* [1.1RecycleView使用心得](#recycleview使用心得)
+* [1.2surfaceview黑屏问题](#surfaceview黑屏问题)
+* [2.Markdown学习笔记](#markdown学习笔记)
+* [3.git 学习笔记](#git学习笔记)
 
 ## android学习笔记 
 ### recycleView使用心得
