@@ -34,8 +34,19 @@
 * git log 查看提交日志
 * git log --pretty=oneline   精简日志
 * git reset --hard HEAD^  回退到上一个版本   HEAD表示当前版本 HEAD^表示上一个版本，HEAD^^上两个版本，多个则HEAD~100
-  或者git reset --hard 508930d     508930d为commit id（注意回退完还是需要重新提交代码的）
+  或者git reset --hard 508930d     508930d为commit id
+  
+  git reset HEAD readme.txt  另外reset命令也可以把暂存区的修改回退到工作区
 * git reflog 查看之前的命令日志，防止重启后还能吃后悔药，如果恢复到未来的版本（已经回退过，所以有未来）
 * git status 查看当前状态
+* git diff HEAD -- readme.txt命令可以查看工作区和版本库里面最新版本的区别
+* git checkout -- readme.txt 撤销修改 把readme.txt文件在工作区的修改全部撤销，
 
+  一种是readme.txt自修改后还没有被放到暂存区，现在，撤销修改就回到和版本库一模一样的状态；
+  
+  一种是readme.txt已经添加到暂存区后，又作了修改，现在，撤销修改就回到添加到暂存区后的状态。
+  总之，让这个文件回到最近一次git commit或git add时的状态。
+
+### git特点
+* 管理的是修改而不是文件
 
