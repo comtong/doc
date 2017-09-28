@@ -36,6 +36,10 @@ surfaceView.setZOrderOnTop(true);// 放置在window最上方显示
 holder.setFormat(PixelFormat.TRANSPARENT);// 透明，否在会盖住原本在上面的
 
 ### CoordinatorLayout和CollapsingToolbarLayout小结
+Behavior必须在CoordinatorLayout直接子View上才有意义
+CollapsingToolbarLayout和ToolBar可以实现折叠效果，但ToolBar的属性需要在CollapsingToolbarLayout设置才有效
+在CollapsingToolbarLayout子Vuew中属性layout_collapseMode可设置折叠后保留（pin）还是折叠（parallax）
+CollapsingToolbarLayout父类是framelayout
 
 ## Markdown学习笔记
 > 1.[快速入门](http://wowubuntu.com/markdown/basic.html)
