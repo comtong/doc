@@ -4,6 +4,7 @@
 * [1. android 学习笔记](#android学习笔记)
   * [1.1 RecycleView使用心得](#recycleview使用心得)
   * [1.2 surfaceview黑屏问题](#surfaceview黑屏问题)
+  * [1.3 CoordinatorLayout和CollapsingToolbarLayout小结](#coordinatorlayout和collapsingtoolbarlayout小结)
 * [2. Markdown学习笔记](#markdown学习笔记)
 * [3. git 学习笔记](#git学习笔记)
 
@@ -33,6 +34,8 @@
 解决方法
 surfaceView.setZOrderOnTop(true);// 放置在window最上方显示
 holder.setFormat(PixelFormat.TRANSPARENT);// 透明，否在会盖住原本在上面的
+
+### CoordinatorLayout和CollapsingToolbarLayout小结
 
 ## Markdown学习笔记
 > 1.[快速入门](http://wowubuntu.com/markdown/basic.html)
