@@ -41,6 +41,15 @@ CollapsingToolbarLayout和ToolBar可以实现折叠效果，但ToolBar的属性�
 在CollapsingToolbarLayout子Vuew中属性layout_collapseMode可设置折叠后保留（pin）还是折叠（parallax）
 CollapsingToolbarLayout父类是framelayout
 
+### Android dex加载小结
+- 类加载器
+Java 虚拟机使用 Java 类的方式如下：Java 源程序（.java 文件）在经过 Java 编译器编译之后就被转换成 Java 字节代码（.class 文件）。类加载器负责读取 Java 字节代码，并转换成java.lang.Class类的一个实例
+所有类加载器都是java.lang.ClassLoader类的一个实例
+- Dalvik虚拟机类加载机制
+Android从ClassLoader派生出了两个类：DexClassLoader和PathClassLoader
+1.DexClassLoader：可以加载jar/apk/dex，可以从SD卡中加载未安装的apk；
+2.PathClassLoader：要传入系统中apk的存放Path，所以只能加载已经安装的apk文件。
+
 ## Markdown学习笔记
 > 1.[快速入门](http://wowubuntu.com/markdown/basic.html)
 
