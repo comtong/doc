@@ -5,6 +5,7 @@
   * [1.1 RecycleView使用心得](#recycleview使用心得)
   * [1.2 surfaceview黑屏问题](#surfaceview黑屏问题)
   * [1.3 CoordinatorLayout和CollapsingToolbarLayout小结](#coordinatorlayout和collapsingtoolbarlayout小结)
+  * [1.4 Android dex加载小结](#android dex加载小结)
 * [2. Markdown学习笔记](#markdown学习笔记)
 * [3. git 学习笔记](#git学习笔记)
 
