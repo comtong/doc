@@ -80,5 +80,5 @@ Android从ClassLoader派生出了两个类：DexClassLoader和PathClassLoader
   总之，让这个文件回到最近一次git commit或git add时的状态。
 
 ### git特点
-* 管理的是修改而不是文件
+* 管理的是修改而不是文件ha
 
