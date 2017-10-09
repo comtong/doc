@@ -5,7 +5,7 @@
   * [1.1 RecycleView使用心得](#recycleview使用心得)
   * [1.2 surfaceview黑屏问题](#surfaceview黑屏问题)
   * [1.3 CoordinatorLayout和CollapsingToolbarLayout小结](#coordinatorlayout和collapsingtoolbarlayout小结)
-  * [1.4 Android dex加载小结](#android dex加载小结)
+  * [1.4 dex加载小结](#dex加载小结)
 * [2. Markdown学习笔记](#markdown学习笔记)
 * [3. git 学习笔记](#git学习笔记)
 
@@ -42,7 +42,7 @@ CollapsingToolbarLayout和ToolBar可以实现折叠效果，但ToolBar的属性�
 在CollapsingToolbarLayout子Vuew中属性layout_collapseMode可设置折叠后保留（pin）还是折叠（parallax）
 CollapsingToolbarLayout父类是framelayout
 
-### Android dex加载小结
+### dex加载小结
 - 类加载器
 Java 虚拟机使用 Java 类的方式如下：Java 源程序（.java 文件）在经过 Java 编译器编译之后就被转换成 Java 字节代码（.class 文件）。类加载器负责读取 Java 字节代码，并转换成java.lang.Class类的一个实例
 所有类加载器都是java.lang.ClassLoader类的一个实例
