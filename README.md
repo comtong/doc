@@ -51,6 +51,14 @@ Android从ClassLoader派生出了两个类：DexClassLoader和PathClassLoader
 1.DexClassLoader：可以加载jar/apk/dex，可以从SD卡中加载未安装的apk；
 2.PathClassLoader：要传入系统中apk的存放Path，所以只能加载已经安装的apk文件。
 
+### 异步更新UI的方式
+- Handel 消息传递机制
+- AsyncTask
+- runOnUiThread
+- Handler的post
+
+### 异步更新UI的方式
+
 ## Markdown学习笔记
 > 1.[快速入门](http://wowubuntu.com/markdown/basic.html)
 
