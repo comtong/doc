@@ -90,3 +90,5 @@ Android从ClassLoader派生出了两个类：DexClassLoader和PathClassLoader
 ### git特点
 * 管理的是修改而不是文件ha
 
+### python记录
+* 打包成exe：D:\DevelopSoft\python\Scripts>pyinstaller C:\Users\Administrator\PycharmProjects
